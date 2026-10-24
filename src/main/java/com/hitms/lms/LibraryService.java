@@ -7,8 +7,12 @@ import java.util.List;
 public class LibraryService {
     private final List<String> books = new ArrayList<>();
 	
+/**
+ * Checks whether the library contains a book.
+ */
 public boolean containsBook(String title) {
     return books.contains(title);
+}
 }
 
 
