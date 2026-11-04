@@ -26,6 +26,8 @@ public boolean containsBook(String title) {
         return books.remove(title);
     }
 
+// Adds a book title to the library collection.
+
     public void returnBook(String title) {
         books.add(title);
     }
