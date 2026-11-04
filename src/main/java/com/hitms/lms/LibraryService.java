@@ -20,6 +20,8 @@ public boolean containsBook(String title) {
         books.add(title);
     }
 
+// Adds a new book to the catalogue.
+
     public boolean issueBook(String title) {
         return books.remove(title);
     }
