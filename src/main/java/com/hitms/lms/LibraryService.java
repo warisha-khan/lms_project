@@ -13,16 +13,20 @@ public class LibraryService {
 public boolean containsBook(String title) {
     return books.contains(title);
 }
-}
+
 
 
     public void addBook(String title) {
         books.add(title);
     }
 
+// Adds a new book to the catalogue.
+
     public boolean issueBook(String title) {
         return books.remove(title);
     }
+
+// Adds a book title to the library collection.
 
     public void returnBook(String title) {
         books.add(title);
