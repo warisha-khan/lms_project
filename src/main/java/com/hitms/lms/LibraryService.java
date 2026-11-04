@@ -14,7 +14,9 @@ public boolean containsBook(String title) {
     return books.contains(title);
 }
 
-
+/**
+ * Adds a book to the library collection.
+ */
 
     public void addBook(String title) {
         books.add(title);
